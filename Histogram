@@ -1,0 +1,42 @@
+img1=imread('office_1.jpg');
+a=rgb2gray(img1);
+
+img2=imread('office_2.jpg');
+b=rgb2gray(img2);
+
+img3=imread('office_3.jpg');
+c=rgb2gray(img3);
+
+img4=imread('office_4.jpg');
+d=rgb2gray(img4);
+
+img5=imread('office_5.jpg');
+e=rgb2gray(img5);
+
+img6=imread('office_6.jpg');
+f=rgb2gray(img6);
+
+subplot(6,2,1);
+imshow(a),title('office 1 Image');
+subplot(6,2,2);
+imhist(a),title('office 1 Histogram');
+subplot(6,2,3);
+imshow(b),title('office 2 Image');
+subplot(6,2,4);
+imhist(b),title('office 2 Histogram');
+subplot(6,2,5);
+imshow(c),title('office 3 Image');
+subplot(6,2,6);
+imhist(c),title('office 3 Histogram');
+subplot(6,2,7);
+imshow(d),title('office 4 Image');
+subplot(6,2,8);
+imhist(d),title('office 4 Histogram');
+subplot(6,2,9);
+imshow(e),title('office 5 Image');
+subplot(6,2,10);
+imhist(e),title('office 5 Histogram');
+subplot(6,2,11);
+imshow(f),title('office 6 Image');
+subplot(6,2,12);
+imhist(f),title('office 6 Histogram');
