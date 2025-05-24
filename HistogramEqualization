@@ -1,0 +1,65 @@
+img1=imread('office_1.jpg');
+A=rgb2gray(img1);
+a=histeq(A);
+
+img2=imread('office_2.jpg');
+B=rgb2gray(img2);
+b=histeq(B);
+
+img3=imread('office_3.jpg');
+C=rgb2gray(img3);
+c=histeq(C);
+
+img4=imread('office_4.jpg');
+D=rgb2gray(img4);
+d=histeq(D);
+
+img5=imread('office_5.jpg');
+E=rgb2gray(img5);
+e=histeq(E);
+
+img6=imread('office_6.jpg');
+F=rgb2gray(img6);
+f=histeq(F);
+
+subplot(6,3,1);
+imshow(A),title('office 1 Image');
+subplot(6,3,2);
+imhist(A),title('office 1 Histogram');
+subplot(6,3,3);
+imhist(a),title('office 1 Histogram Equalization');
+
+subplot(6,3,4);
+imshow(B),title('office 2 Image');
+subplot(6,3,5);
+imhist(B),title('office 2 Histogram');
+subplot(6,3,6);
+imhist(b),title('office 2 Histogram Equalization');
+
+subplot(6,3,7);
+imshow(C),title('office 3 Image');
+subplot(6,3,8);
+imhist(C),title('office 3 Histogram');
+subplot(6,3,9);
+imhist(c),title('office 3 Histogram Equalization');
+
+subplot(6,3,10);
+imshow(D),title('office 4 Image');
+subplot(6,3,11);
+imhist(D),title('office 4 Histogram');
+subplot(6,3,12);
+imhist(d),title('office 4 Histogram Equalization');
+
+subplot(6,3,13);
+imshow(E),title('office 5 Image');
+subplot(6,3,14);
+imhist(E),title('office 5 Histogram');
+subplot(6,3,15);
+imhist(e),title('office 5 Histogram Equalization');
+
+subplot(6,3,16);
+imshow(F),title('office 6 Image');
+subplot(6,3,17);
+imhist(F),title('office 6 Histogram');
+subplot(6,3,18);
+imhist(f),title('office 6 Histogram Equalization');
