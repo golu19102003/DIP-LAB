@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/d093d48e-e7e2-4c50-a56a-466b71dc9303)
+![image](https://github.com/user-attachments/assets/d4ab53e0-623a-4953-8b7c-a148f8206f75)
+![image](https://github.com/user-attachments/assets/afa38408-a4ca-4341-aec2-ddefe8fc425d)
+
 # DIP-LAB
 All Program of 6th Sem Digital Image Processing Lab with their Image Outputs. These Program includes Histogram, Histogram-Equalization, Transformation, Airthmetic-Operations, Log-Transformation, Power-Law-Transformation performing on an Image.
 
